@@ -1,6 +1,6 @@
 #/bin/bash
 #sudo -i
-mkdir Dev-v1
+#mkdir Dev-v1
 
 cd Dev-v1
 git clone https://github.com/aatmaani/project.git
