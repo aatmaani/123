@@ -16,7 +16,7 @@ docker tag project/nodejs-app:Dev-v1 215767047920.dkr.ecr.ap-south-1.amazonaws.c
 
 docker push 215767047920.dkr.ecr.ap-south-1.amazonaws.com/project/nodejs-app:Dev-v1
 
-cd charts
+cd /123/charts
 
 helm upgrade --install nodejs-dev nodejs -f values-dev.yaml --set image.tag=Dev-v1 -n dev
 
