@@ -18,5 +18,5 @@ docker push 215767047920.dkr.ecr.ap-south-1.amazonaws.com/project/nodejs-app:Dev
 cd
 cd workspace/123/charts
 
-#helm upgrade --install nodejs-dev nodejs -f values-dev.yaml --set image.tag=Dev-v1 -n dev
+helm upgrade --install nodejs-dev nodejs -f values-dev.yaml --set image.tag=Dev-v1 -n dev
 
